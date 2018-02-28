@@ -23,8 +23,8 @@
           return false;
         }
         function move(e) {
-          let oDivLeft = e.pageX - offsetX;
-          let oDivTop = e.pageY - offsetY;
+          var oDivLeft = e.pageX - offsetX;
+          var oDivTop = e.pageY - offsetY;
           if(oDivLeft < 0){
             oDivLeft = 0;
           }else if(oDivLeft > document.documentElement.clientWidth - el.offsetWidth){

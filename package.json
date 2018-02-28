@@ -1,6 +1,6 @@
 {
   "name": "vue-drag-tk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue's plugin for drag of tk project",
   "main": "vue-drag.js",
   "scripts": {
